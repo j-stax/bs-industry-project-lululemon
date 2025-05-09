@@ -1,5 +1,5 @@
 import './Header.scss'
-import Logo from './Logo'
+import Logo from '../Logo'
 import { FaRegCircleUser } from "react-icons/fa6";
 import { RiShoppingBagLine } from "react-icons/ri";
 import { LuMenu } from "react-icons/lu";

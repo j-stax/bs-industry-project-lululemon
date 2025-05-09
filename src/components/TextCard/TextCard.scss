@@ -1,0 +1,23 @@
+.text-card {
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+
+    &__text {
+        margin: 0 0 1.5rem;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    &__input {
+        padding: 0.25rem 0.5rem;
+        width: 90%;
+        display: block;
+        margin: auto;
+        border: 1px solid black;
+        border-radius: 4px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

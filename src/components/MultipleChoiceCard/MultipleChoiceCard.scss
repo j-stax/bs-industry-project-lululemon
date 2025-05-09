@@ -1,0 +1,34 @@
+.mc-card {
+    margin-bottom: 3rem;
+    
+    &__text {
+        margin: 0 0 1.5rem;
+        font-weight: 700;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    &__mc-options {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__option {
+        padding: 0.5rem 1rem;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 4px;
+
+        &--selected {
+            background-color: lightskyblue;
+            color: #FFFFFF; 
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: lightskyblue;
+            color: #FFFFFF;
+        }
+    }
+}
