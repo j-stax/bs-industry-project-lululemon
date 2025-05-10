@@ -1,0 +1,31 @@
+.event {
+    height: 25rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+
+    &__info {
+        width: 60%;
+        padding: 0.3rem 0.5rem;
+        position: absolute;
+        bottom: 0;
+        border-top-right-radius: 4px;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    &__info-label {
+        margin: 0.15rem 0;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    &__info-item {
+        font-weight: 400;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+}
