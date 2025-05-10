@@ -1,6 +1,7 @@
 import './App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import Survey from './pages/Survey/Survey'
 import SurveyNotice from './components/SurveyNotice/SurveyNotice'
 import Recommendation from './pages/Recommendation/Recommendation'
@@ -23,7 +24,6 @@ function App() {
     sessionStorage.setItem('showNotice', 'false')
   }
 
-  // Add delete icon/function to SurveyNotice;
 
   return (
     <BrowserRouter>
@@ -39,6 +39,7 @@ function App() {
               <Route path="/survey" element={<Survey />} />
             </Routes>
           </main>
+          <Footer />
         </div>
     </BrowserRouter>
   )
