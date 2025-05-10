@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Survey from './pages/Survey/Survey'
 import SurveyNotice from './components/SurveyNotice/SurveyNotice'
 import Recommendation from './pages/Recommendation/Recommendation'
+import Home from './pages/Home/Home'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -33,9 +34,9 @@ function App() {
           <Header />
           <main>
             <Routes>
-              <Route path="/" element={<Recommendation />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/recommendation" element={<Recommendation />} />
               <Route path="/survey" element={<Survey />} />
-              <Route path="/recommendation" element={<p>Recommendation</p>} />
             </Routes>
           </main>
         </div>

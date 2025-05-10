@@ -5,6 +5,7 @@ import { RiShoppingBagLine } from "react-icons/ri";
 import { LuMenu } from "react-icons/lu";
 import { IoIosSearch } from "react-icons/io";
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     const searchIconRef = useRef(null)
@@ -20,10 +21,10 @@ export default function Header() {
     return (
         <header className="header">
             <nav className="header__nav">
-                <div className="header__logo-container">
+                <Link className="header__logo-container" to="/">
                     <Logo className="header__logo" width="1.5rem" height="1.25rem" />
                     <h1 className="header__heading">lululemon</h1>
-                </div>
+                </Link>
                 <div className="header__nav-options">
                     <FaRegCircleUser className="header__user-icon" size={22} />
                     <RiShoppingBagLine size={24} />

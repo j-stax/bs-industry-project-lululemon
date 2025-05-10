@@ -1,0 +1,46 @@
+.home {
+    margin: 0 -0.5rem;
+
+    &__feature-dropdown {
+        padding: 1.5rem;
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+
+    &__feature-dropdown-heading {
+        margin: 0;
+    }
+
+    &__feature-running {
+        height: 25rem;
+        background-image: url('../../assets/lululemon-runclub.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    &__feature-running-content {
+        position: absolute;
+        bottom: 3%;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__feature-running-heading {
+        margin: 0 0 2rem;
+        color: #FFFFFF;
+        font-weight: 500;
+    }
+
+    &__feature-running-link {
+        padding: 1rem;
+        background-color: #FFFFFF;
+        color: #000000;
+        font-weight: 600;
+        border: 1px solid #000000;
+        border-radius: 4px;
+    }
+}

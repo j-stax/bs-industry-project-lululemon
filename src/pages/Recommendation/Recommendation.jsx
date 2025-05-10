@@ -3,7 +3,7 @@ import Event from "../../components/Event/Event"
 import { events } from '../../data/events'
 
 export default function Recommendation() {
-    const event = events[0]
+    const event = events[1]
 
     return (
         <div className="recommendation">
