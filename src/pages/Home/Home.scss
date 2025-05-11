@@ -50,7 +50,39 @@
     }
 
     &__feature-summer-heading {
-        margin: 0;
+        margin: 0 0 1rem;
         text-align: center;
+    }
+
+    &__product-display {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    &__sidescroller {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: 0.5rem 0 1.5rem;
+    }
+
+    &__sidescroller-circle {
+        padding: 0.25rem;
+        border-radius: 50%;
+        background-color: #d3d3d3;
+
+        &:first-child {
+            background-color: #000000;
+        }
+    }
+
+    &__feature-summer-button {
+        width: 100%;
+        padding: 1rem 0;
+        background-color: #FFFFFF;
+        font-weight: 600;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        margin-bottom: 1rem;
     }
 }

@@ -25,8 +25,26 @@ export default function Home() {
                         price="68"
                         imageUrl={'/src/assets/lululemon-short-sleeve.png'} 
                         imageAlt="Female wearing a short sleeve top." 
+                        colors={["#ffb6c1", "#5dade2", "#6c3483", "#f9e79f", "#58d68d"]}
+                    />
+                    <Product 
+                        name="Metal Vent Tech Sleveless Shirt"
+                        price="63"
+                        imageUrl={'/src/assets/lululemon-tank.png'} 
+                        imageAlt="Male wearing a sleveless shirt." 
+                        colors={["#1c2833", "#2874a6 ", "#5d6d7e"]}
                     />
                 </div>
+                <div className="home__sidescroller">
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                    <span className="home__sidescroller-circle"></span>
+                </div>
+                <button className="home__feature-summer-button">SHOP WHAT'S NEW</button>
             </div>
         </div>
     )
