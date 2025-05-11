@@ -14,5 +14,13 @@ export const events = [
         location: "Sukha Yoga",
         address: "55 Glen Cameron Rd, Unit 1, Markham",
         time: "12:00 - 1:00 PM"
+    },
+    {
+        activity: "spin cycling",
+        imageUrl: "/src/assets/spin-class.jpg",
+        date: "May 22, 2025",
+        location: "Rise Cycle",
+        address: "672 Queen St. E., Main Fl.",
+        time: "6:00 - 7:00 PM"
     }
 ]
