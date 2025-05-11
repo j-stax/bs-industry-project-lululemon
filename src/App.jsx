@@ -33,9 +33,9 @@ function App() {
           <Header />
           <main>
             <Routes>
-              <Route path="/" element={<Recommendation />} />
+              <Route path="/" element={<p>Homepage placeholder</p>} />
               <Route path="/survey" element={<Survey />} />
-              <Route path="/recommendation" element={<p>Recommendation</p>} />
+              <Route path="/recommendation" element={<Recommendation />} />
             </Routes>
           </main>
         </div>
