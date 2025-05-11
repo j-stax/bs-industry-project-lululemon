@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Survey from './pages/Survey/Survey'
 import SurveyNotice from './components/SurveyNotice/SurveyNotice'
 import Recommendation from './pages/Recommendation/Recommendation'
+import Dashboard from "./pages/Dashboard/Dashboard";
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
     sessionStorage.setItem('showNotice', 'false')
   }
 
-  // Add delete icon/function to SurveyNotice;
 
   return (
     <BrowserRouter>
@@ -36,11 +36,12 @@ function App() {
               <Route path="/" element={<p>Homepage placeholder</p>} />
               <Route path="/survey" element={<Survey />} />
               <Route path="/recommendation" element={<Recommendation />} />
+              <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
           </main>
         </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
