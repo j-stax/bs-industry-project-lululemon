@@ -1,9 +1,9 @@
 .notice {
     margin: 0 -0.5rem;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1.5px solid #d3d3d3;
     height: 0;
     overflow: hidden;
-    animation: slideDown 1s ease-in-out 2s forwards;
+    animation: slideDown 1s ease-in-out 5s forwards;
     position: relative;
 
     &__para {

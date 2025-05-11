@@ -27,7 +27,7 @@ export default function Survey() {
     const handleSurveyEnd = () => {
         // Send answers/data for analysis
         console.log(answers)
-        //navigate("/recommendation")
+        navigate("/recommendation")
     }
 
     return (
