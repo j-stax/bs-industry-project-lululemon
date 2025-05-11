@@ -1,0 +1,18 @@
+.recommendation {
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 4px;
+
+    &__para-container {
+        padding: 0.5rem;
+    }
+
+    &__para {
+        margin: 0rem;
+        line-height: 1.5rem;
+
+        &:first-child {
+            margin-bottom: 0.25rem;
+        }
+    }
+}

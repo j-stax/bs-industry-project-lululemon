@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Survey from './pages/Survey/Survey'
 import SurveyNotice from './components/SurveyNotice/SurveyNotice'
+import Recommendation from './pages/Recommendation/Recommendation'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Header />
           <main>
             <Routes>
+              <Route path="/" element={<Recommendation />} />
               <Route path="/survey" element={<Survey />} />
               <Route path="/recommendation" element={<p>Recommendation</p>} />
             </Routes>
