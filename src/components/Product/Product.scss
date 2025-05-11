@@ -1,0 +1,28 @@
+.product {
+    &__image {
+        width: 100%;
+    }
+
+    &__color-options {
+        padding: 0.75rem 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    &__color {
+        display: inline-block;
+        padding: 0.5rem;
+        border-radius: 50%;
+        border: 1px solid #d3d3d3;
+    }
+
+    &__description {
+        margin: 0;
+        font-weight: 600;
+
+        &--price {
+            font-weight: 500;
+            margin: 0.5rem 0;
+        }
+    }
+}
