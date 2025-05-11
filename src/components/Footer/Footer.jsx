@@ -5,6 +5,7 @@ import { FaPinterestP } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -25,6 +26,7 @@ export default function Footer() {
                 CONTACT US
                 <IoIosArrowDown />
             </div>
+            <Link className="footer__link footer__link--dashboard" to="/dashboard">MY DASHBOARD</Link>
             <p className="footer__link">EMAIL SIGN UP</p>
             <p className="footer__link">CAREERS</p>
             <p className="footer__link">LULULEMON X FANATICS</p>
