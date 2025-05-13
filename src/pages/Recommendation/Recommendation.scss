@@ -1,0 +1,25 @@
+.recommendation-wrapper {
+    margin: 0 -0.5rem;
+    padding: 1rem 0.5rem;
+    background-color: #F7F7F7;
+}
+
+.recommendation {
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+
+    &__para-container {
+        padding: 0.5rem;
+    }
+
+    &__para {
+        margin: 0rem;
+        line-height: 1.5rem;
+
+        &:first-child {
+            margin-bottom: 0.25rem;
+        }
+    }
+}

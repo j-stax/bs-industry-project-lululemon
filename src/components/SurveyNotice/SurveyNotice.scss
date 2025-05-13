@@ -1,0 +1,38 @@
+.notice {
+    margin: 0 -0.5rem;
+    border-bottom: 1.5px solid #d3d3d3;
+    height: 0;
+    overflow: hidden;
+    animation: slideDown 1s ease-in-out 5s forwards;
+    position: relative;
+
+    &__para {
+        margin: 0;
+    }
+
+    &__link {
+        color: inherit;
+    }
+
+    &__close-icon {
+        position: absolute;
+        top: 0.3rem;
+        right: 0.3rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes slideDown {
+    0% { height: 0; }
+    100% { 
+        height: 4.25rem; 
+        padding: 1rem 0.75rem;
+    }
+}
+
+.hidden {
+    display: none;
+}

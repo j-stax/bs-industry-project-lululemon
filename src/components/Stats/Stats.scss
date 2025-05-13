@@ -1,0 +1,41 @@
+.profile-stats {
+  background-color: #ffffff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  .stats-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    color: #1f2937;
+    text-align: center;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .stat-item {
+    background: linear-gradient(to bottom right, black, red);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+
+    .stat-value {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+
+    .stat-label {
+      font-size: 0.875rem;
+      color: #ece3e4;
+      margin-top: 0.25rem;
+    }
+  }
+}
