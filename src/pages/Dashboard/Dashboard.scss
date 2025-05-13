@@ -6,4 +6,9 @@
   flex-direction: column;
   padding: 1rem 0.5rem;
   margin: 0 -0.5rem;
+
+  &__inner {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
 }

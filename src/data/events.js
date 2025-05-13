@@ -13,7 +13,7 @@ export const events = [
         date: "May 20, 2025",
         location: "Sukha Yoga",
         address: "55 Glen Cameron Rd, Unit 1, Markham",
-        time: "12:00 - 1:00 PM"
+        time: "4:00 - 5:00 PM"
     },
     {
         activity: "spin cycling",

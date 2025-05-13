@@ -7,8 +7,10 @@ import "./Dashboard.scss"; // Import the SCSS file
 function Dashboard() {
   return (
     <div className="dashboard">
-      <Profile />
-      <Stats />
+      <div className="dashboard__inner">
+        <Profile />
+        <Stats />
+      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         text: "What is your primary wellness goal?",
         type: "multiple-choice",
-        options: ["Get healthier", "Lost weight", "Improve mental health", "None"]
+        options: ["Get healthier", "Lose weight", "Improve mental health", "Increase muscle and strength" , "None"]
     },
     {
         id: 2,
