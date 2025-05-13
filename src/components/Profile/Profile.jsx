@@ -11,7 +11,6 @@ const Profile = () => {
   };
 
   return (
-    // <div className="profile-page">
     <div className="profile-card">
       <h2 className="profile-title">User Profile</h2>
       <div className="profile-info">
@@ -22,7 +21,6 @@ const Profile = () => {
         <ProfileItem label="Location" value={user.location} />
       </div>
     </div>
-    // </div>
   );
 };
 
